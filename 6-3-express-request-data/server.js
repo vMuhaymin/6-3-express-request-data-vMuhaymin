@@ -107,6 +107,11 @@ LAB SETUP INSTRUCTIONS
 import express from "express";
 const app = express();
 
+const PORT = 3000;
+app.listen (PORT, ()=>{
+   console.log("API running at http://localhost:3000")
+});
+
 
 // create server
 
